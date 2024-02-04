@@ -12,6 +12,6 @@ alias cll='clear && ll'
 alias gst='cll && git status'
 alias glo='cll && git log --oneline'
 alias gaa='git add . && gst'
-alias gpo='git push origin'
-alias gpl='git pull origin'
+alias gpo='git push origin && gst'
+alias gpl='git pull origin && gst'
 
